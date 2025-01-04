@@ -19,6 +19,10 @@ This API is a core component of a security module designed for robust account ma
 - **Description**: Utilized for storing user data, transaction histories, and a blacklist of malicious URLs.
 - **Capabilities**:
   - Supports high availability, horizontal scaling, and geographic distribution essential for large-scale banking applications.
+ 
+#### Video End-to-End POC: 
+From Model Training to Database Insertion 
+<https://youtu.be/RvSKBsku0Bw>
 
 ## Key Features
 

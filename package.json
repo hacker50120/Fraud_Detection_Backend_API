@@ -1,0 +1,41 @@
+{
+    "name": "fraud_detection_solution",
+    "version": "1.0.0",
+    "description": "This is bank Fraud Detection System",
+    "main": "domain_resolver.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "Abhishek kanaujia",
+    "license": "ISC",
+    "dependencies": {
+        "async": "^3.2.4",
+        "axios": "^1.5.0",
+        "body-parser": "^1.20.2",
+        "bottleneck": "^2.19.5",
+        "child_process": "^1.0.2",
+        "cors": "^2.8.5",
+        "curl-cmd": "^0.0.1",
+        "dotenv": "^16.3.1",
+        "ejs": "^3.1.9",
+        "expand-url": "^0.1.3",
+        "express": "^4.18.2",
+        "follow-redirects": "^1.15.3",
+        "limiter": "^2.1.0",
+        "mongodb": "4.0",
+        "mongoose": "^7.5.0",
+        "node-fetch": "^3.3.2",
+        "parse-domain": "^7.0.1",
+        "promisify-node": "^0.5.0",
+        "request": "^2.88.2",
+        "resolve-url": "^0.2.1",
+        "ssl-checker": "^2.0.8",
+        "tls": "^0.0.1",
+        "unshorter": "^1.2.2",
+        "url-unshort": "^6.1.0",
+        "util": "^0.12.5",
+        "validator": "^13.11.0",
+        "whois": "^2.14.0"
+    }
+}

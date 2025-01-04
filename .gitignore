@@ -1,0 +1,22 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs and other generated files
+logs/
+*.log
+*.txt
+npm-debug.log*
+
+# Ignore environment-specific files
+.env
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore VS Code settings
+.vscode/
+
+oldDBConnection.js

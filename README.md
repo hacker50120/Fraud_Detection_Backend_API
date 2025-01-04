@@ -93,7 +93,7 @@ userAPICountCAP=167
 - Logout All Sessions: `http://{{hosted_server_ip}}:8081/api/v1/users/logout/all`
 
 ### Fraud Detection
-- Process SMS for Fraud Detection: http://{{hosted_server_ip}}:8080/process-json
+- Process SMS for Fraud Detection: `http://{{hosted_server_ip}}:8080/process-json`
 
 ```
 header: optional
@@ -108,7 +108,10 @@ message:
 ```
 
 ### Postman Collection
-You can access the Postman collection for this API using the following public link: Access Postman Collection <https://api.postman.com/collections/25261584-2b1e88bf-04c0-450a-903f-c55d6a7b65bb?access_key=PMAT-01JGRSZTN7RDHTM6CBYB5BQDAN>
+You can access the Postman collection for this API using the following public link: 
+- Access Postman Collection <https://api.postman.com/collections/25261584-2b1e88bf-04c0-450a-903f-c55d6a7b65bb?access_key=PMAT-01JGRSZTN7RDHTM6CBYB5BQDAN>
+- Project Collab: <https://abhishek-fraud-detection-api-calls.postman.co/workspace/abhishek-fraud-detection-api-ca~46f214c2-c834-4587-8624-b1a0a378d81b/request/25261584-453a97b7-9406-4622-94a4-060bf77fc5af?action=share&creator=25261584&ctx=documentation&active-environment=25261584-21480a75-33f2-4c96-a138-288678bfa8cc?>
+
 
 ### Contributing
 Contributions are encouraged. Please refer to the CONTRIBUTING.md for contribution guidelines.

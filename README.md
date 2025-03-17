@@ -65,6 +65,7 @@ PORT=8080
 DB_HOST=localhost
 MongoDB_USER=admin
 MongoDB_PASSWORD=Password@123
+MongoDB_URL=localhost:27017
 LoginUser=admin
 LoginPass=Password@123
 DB_URL=mongodb://localhost:27017/userMng

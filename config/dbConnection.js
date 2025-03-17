@@ -3,6 +3,7 @@ require('dotenv').config();
 
 const MongoDB_USER = process.env.MongoDB_USER;
 const MongoDB_PASSWORD = process.env.MongoDB_PASSWORD;
+const MongoDB_URL = process.env.MongoDB_URL;
 
 class MongoConnectionManager {
     constructor(url, options) {
@@ -51,7 +52,7 @@ class MongoConnectionManager {
 }
 
 // Example usage:
-const mongoURL = `mongodb://${MongoDB_USER}:${MongoDB_PASSWORD}@15.207.51.198:27017`;
+const mongoURL = `mongodb://${MongoDB_USER}:${MongoDB_PASSWORD}@${MongoDB_URL}`;
 const mongoOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 
 const connectionManager = new MongoConnectionManager(mongoURL, mongoOptions);
